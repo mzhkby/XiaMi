@@ -1,4 +1,4 @@
-package com.example.aaa.xiami;
+package com.example.aaa.xiami.activity;
 
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
@@ -8,10 +8,11 @@ import android.view.MenuItem;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.example.aaa.xiami.Fragment.BbsFragment;
-import com.example.aaa.xiami.Fragment.HotFragment;
-import com.example.aaa.xiami.Fragment.MySpaceFragment;
-import com.example.aaa.xiami.Fragment.NewsetFragment;
+import com.example.aaa.xiami.R;
+import com.example.aaa.xiami.fragment.BbsFragment;
+import com.example.aaa.xiami.fragment.HotFragment;
+import com.example.aaa.xiami.fragment.MySpaceFragment;
+import com.example.aaa.xiami.fragment.NewsetFragment;
 
 
 public class MainActivity extends ActionBarActivity implements RadioGroup.OnCheckedChangeListener {
